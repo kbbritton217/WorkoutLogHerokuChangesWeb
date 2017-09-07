@@ -64,7 +64,7 @@ $(function(){
 				$("#loginout").text("Logout");
 				$("#li_username").val("");
 				$("#li_password").val("");
-				$('a[href="#define"]').tab('show');
+				$('a[href="#define"]').tab("show");
 			})
 			.fail(function() {
 				$("#li_error").text("There was an issue with sign up").show();
