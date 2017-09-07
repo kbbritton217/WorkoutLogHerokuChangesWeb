@@ -56,7 +56,7 @@ $(function(){
 					WorkoutLog.setAuthHeader(data.sessionToken);
 					WorkoutLog.definition.fetchAll();
 					WorkoutLog.log.fetchAll();
-					console.log(data.sessionToken);
+					//console.log(data.sessionToken);
 				}
 				
 				$("#login-modal").modal("hide");
