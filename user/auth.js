@@ -30,7 +30,7 @@ $(function(){
 				
 				$("#su_username").val("");
 				$("#su_password").val("");
-				$('a[href="define"]').tab('show');
+				$('a[href="#define"]').tab('show');
 			})
 			.fail(function(){
 				$("#su_error").text("There was an issue with sign up").show();
