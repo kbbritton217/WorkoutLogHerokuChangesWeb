@@ -1,13 +1,14 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify-es').default;
 var sourcemaps = require('gulp-sourcemaps');
 
 var javascriptFiles = [
 	'./app.js',
 	'./workouts/define.js',
 	'./workouts/log.js',
-	'./user/auth.js'
+	'./user/auth.js',
+	'./workouts/exercise.js'
 ];
 
 gulp.task('bundle', function() {

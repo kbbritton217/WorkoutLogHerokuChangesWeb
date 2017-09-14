@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	background-color: #d0d0d0;
+	font-family: 'Pompiere', cursive;
+	background-image: url('/img/push.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 20px;
+}
+h1 {
+	font-family: 'Anton', sans-serif;
+} 
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+.tab-content {
+	width: 100%;
+	height: 700px;
+	padding-top: 20px;
+	
+}
+.btn {
+	background-color: #578693;
+}
+h2 {
+	padding: 5px;
+}
+select, label {
+	padding: 10px;
+}
+.pad {
+	margin-top: 75px;
+}
+.sel {
+	max-width: 80%;
+	margin: auto;
+}
+.createBtn {
+	margin-top: 15px;
+}
+ul {
+	list-style: none;
+}
+li {
+	text-decoration: none;
+}
