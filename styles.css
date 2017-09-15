@@ -46,3 +46,6 @@ ul {
 li {
 	text-decoration: none;
 }
+.highlight {
+	background-color: lightpink;
+}

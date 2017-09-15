@@ -41,7 +41,7 @@
 					<div class="row">
 						<div class="row col-lg-4">
 							<h2>Create your Workout</h2>
-							<label for="def-description">Let's HIIT it for 1 minute on and 30 seconds of rest</label>
+							<label for="def-description">Let's HIIT each exercise for 1 minute</label>
 							<br>
 							<label for="def-logtype">Select An Exercise and click Add to add it to your workout</label>
 							<select class="form-control sel" id="ex-select">
@@ -57,7 +57,7 @@
 						</div>
 						<div class="row col-lg-4">
 							<div class="pad">
-								<input type="checkbox" name="save"><p>Save Workout for future use</p>
+								<!--<input type="checkbox" name="save"><p>Save Workout for future use</p>-->
 								<button id="def-save" class="btn btn-primary createBtn">Start Workout</button>
 							</div>
 						</div>
@@ -67,20 +67,27 @@
 					<div class="row">
 						<div class="row col-lg-6">
 							<h2>Let's workout!</h2>
-							<div class="display">
-								<h1 class="display__time-left"></h1>
-								<!--<p class="display__end-time"></p>-->
-							</div>
-							<div>
-								<button class="pause">PAUSE</button>
-								<button class="restart">KEEP GOING</button>
-							</div>
-							<div>
-								<button id="log-save" class="btn btn-primary done">DONE</button>
-							</div>
+							<div class="timer">
+							    <div class="timer__controls">
+							      <button data-time="180" id="start" class="timer__button">Start</button>
+							      <!--<form name="customForm" id="custom">
+							        <input type="text" name="minutes" placeholder="Enter Minutes">
+							      </form>-->
+							    </div>
+							    <div class="display">
+							      <h1 class="display__time-left"></h1>
+							    </div>
+							  </div>
 						</div>
 						<div class="row col-lg-6" id="currentExercise">
-							<h1></h1>
+							<div class="row">
+								<ul class="list-group" id="exercise-list">
+									
+								</ul>
+							</div>
+							<div class="row" id="displayEx">
+								<h1 class="displayEx"></h1>
+							</div>
 						</div>
 					</div>
 				</div>

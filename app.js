@@ -1,7 +1,8 @@
 $(function(){
 
 	var WorkoutLog = (function($, undefined){
-		var API_BASE = "http://localhost:3000/api/";
+		var API_BASE = "https://log-hiit-workouts-api.herokuapp.com/api/";
+		//"http://localhost:3000/api/";
 		//"https://log-hiit-workouts-api.herokuapp.com/api/";
 		var userDefinitions = [];
 
@@ -41,8 +42,8 @@ $(function(){
 		}
 		if (target === "#log") {
 			WorkoutLog.time.setDisplay();
-			WorkoutLog.time.timer();
-			console.log(WorkoutLog.time.timer);
+			//WorkoutLog.time.timer();
+			//console.log(WorkoutLog.time.timer);
 		}
 
 		if (target === "#history") {
